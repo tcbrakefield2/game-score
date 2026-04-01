@@ -1,5 +1,5 @@
 import { GARFIELD_NEW_SCORE } from '../config/defaults.js';
-import { getPlayer, getLeaderboardData, setLeaderboardData } from '../controllers/game-session.js';
+import { getPlayer, getLeaderboardData, setLeaderboardData } from '../modules/game-session.js';
 
 export function recordThomasHighScore() {
   const player = getPlayer();
