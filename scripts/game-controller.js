@@ -1,5 +1,5 @@
 import { initializeSession, savePlayer, resetSession } from '../../game-session.js';
-import { recordGarfieldHighScore } from '../../score-manager.js';
+import { recordThomasHighScore } from '../../score-manager.js';
 import { getLeaderboard } from '../../leaderboard.js';
 import { renderStatus, renderLeaderboard } from '../../ui.js';
 import { logAction } from '../../utils.js';
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   recordScoreBtn.addEventListener('click', () => {
-    const result = recordGarfieldHighScore();
+    const result = recordThomasHighScore();
     logAction('Record high score button clicked');
     renderStatus(result.message);
   });
