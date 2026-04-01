@@ -1,12 +1,12 @@
 # 🎮 Front-End JS Modules for the Web Game Project (CIS 376)
 
-> refer to the [wiki/js modules](https://github.com/barrycumbie/game-score/wiki/js-modules)
+> refer to the [wiki/js modules](https://github.com/tcbrakefield2/game-score/wiki/js-modules)
 
 ## 🧭 BLUF
 For this lab, let's figure out modules & game socring 
 
-- Save hardcoded player name: **Garfield**
-- Record Garfield’s high score
+- Save hardcoded player name: **Thomas**
+- Record Thomas high score
 - Reset game
 - View leaderboard / high scores
 
